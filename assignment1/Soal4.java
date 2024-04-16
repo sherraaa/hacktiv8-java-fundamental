@@ -2,7 +2,7 @@ public class Soal4 {
     /*
      * Dalam suatu kelas yang terdiri dari 10 siswa, 
      * mereka dibagi menjadi 5 kelompok dengan pembagian sebagai berikut
-     * a. Rudi, Budi, Lila
+     * a.Rudi, Budi, Lila
      * b.Erika, Nina
      * c.Lisa, Anna
      * d.Didit, Resti, Hana
