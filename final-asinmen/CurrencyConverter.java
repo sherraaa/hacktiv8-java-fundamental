@@ -69,6 +69,12 @@ public class CurrencyConverter {
         System.out.println("Input the conversion currency (Choose A/B/C):");
         char option = scan.next().charAt(0);
 
+        if (option != 'A' && option != 'B' && option != 'C') {
+            System.out.println("Invalid option!");
+            scan.close();
+            return;
+        }
+
         CurrencyConverter converter = new CurrencyConverter(option, amount);
         System.out.println("Conversion result to " +  converter.getCurrency() + " is " + converter.getConvertedAmount());
         
