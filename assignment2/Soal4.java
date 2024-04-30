@@ -38,7 +38,7 @@ public class Soal4 {
         String nama = scanner.nextLine();
         System.out.print("Masukkan nilai mahasiswa: ");
         int nilai = scanner.nextInt();
-        Soal4 score = new Soal4(nilai);
+        Shape score = new Shape(nilai);
         
         System.out.println("nama: " + nama + "; score: " + score.checkGrade());
     }

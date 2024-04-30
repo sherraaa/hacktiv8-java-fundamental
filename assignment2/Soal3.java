@@ -7,10 +7,10 @@ public class Soal3 {
      public static boolean isGeometricSeries(int[] numbers) {
         if (numbers.length <= 1) return true;
 
-        double ratio = (double) array[1] / array[0];
+        double ratio = (double) numbers[1] / array[0];
 
-        for (int i = 1; i < array.length; i++) {
-            if ((double) array[i] / array[i-1] != ratio)
+        for (int i = 1; i < numbers.length; i++) {
+            if ((double) numbers[i] / numbers[i-1] != ratio)
                 return false;
         }
 
